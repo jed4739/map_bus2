@@ -8,6 +8,13 @@ import javax.persistence.ManyToOne;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ *	정류소 위치
+ *	stopId: 정류소 ID
+ * 	cityCode: 도시코드
+ * 	gpsX: X좌표
+ * 	gpsY: Y좌표
+ * */
 @Entity
 @Data
 @NoArgsConstructor

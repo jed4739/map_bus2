@@ -7,6 +7,13 @@ import javax.persistence.Id;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ *	정류소 정보
+ *	stopId: 정류소 ID
+ * 	stopNm: 정류소명
+ * 	stopNo: 정류소 번호
+ * 	routeId: 노선 ID
+ * */
 @Entity
 @Data
 @NoArgsConstructor

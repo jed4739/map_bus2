@@ -9,6 +9,15 @@ import javax.persistence.ManyToOne;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ *	노선 정보
+ *	routeId: 노선 ID
+ *  cityCode: 도시코드
+ * 	routeNm: 노선명
+ * 	routeTp: 노선유형
+ * 	startStopNm: 기점
+ * 	endStopNm: 종점
+ * */
 @Entity
 @Data
 @NoArgsConstructor

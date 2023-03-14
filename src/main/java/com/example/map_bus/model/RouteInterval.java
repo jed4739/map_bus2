@@ -8,6 +8,15 @@ import javax.persistence.ManyToOne;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ *	배차 간격
+ *	routeId: 노선 ID
+ * 	startVehicleTime: 첫차시간
+ * 	endVehicleTime: 막차시간
+ * 	intervalTime: 배차간격(평일)
+ * 	intervalSatTime: 배차간격(토요일)
+ * 	intervalSunTime: 배차간격(일요일)
+ * */
 @Entity
 @Data
 @NoArgsConstructor

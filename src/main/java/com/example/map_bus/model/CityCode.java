@@ -7,6 +7,11 @@ import javax.persistence.Id;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/*
+ *	도시 코드
+ *	cityCode: 도시코드
+ * 	cityNm: 도시명
+ * */
 @Entity
 @Data
 @NoArgsConstructor
